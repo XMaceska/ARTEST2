@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = 'SET';
+    button.innerText = 'Zmena';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -22,20 +22,20 @@ var models = [
     {
         url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
-        info: 'Kostel Sv. Mourenec interier',
+        info: 'Magnemite',
         rotation: '0 180 0',
     },
     {
-        url: './assets/articuno/scene.gltf',
+        url: './assets/articuno/Domy.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'Již neexistující domu v okolí',
+        info: 'Již neexistující domy v okolí',
     },
     {
-        url: './assets/dragonite/scene.gltf',
+        url: './assets/dragonite/church.gltf',
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
+        info: 'Kostel Sv. Mourenec interier',
     },
 ];
 
