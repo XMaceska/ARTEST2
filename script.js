@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '﹖';
+    button.innerText = 'prepni';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
