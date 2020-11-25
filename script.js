@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = 'Zmena';
+    button.innerText = 'SET';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -27,14 +27,14 @@ var models = [
     },
     {
         url: './assets/articuno/Domy.gltf',
-        scale: '1 1 1',
+        scale: '0.9 0.9 0.9',
         rotation: '0 180 0',
         info: 'Již neexistující domy v okolí',
     },
     },
     {
         url: './assets/dragonite/church.gltf',
-        scale: '1 1 1',
+        scale: '0.9 0.9 0.9',
         rotation: '0 180 0',
         info: 'Kostel Sv. Mourenec interier',
     },
