@@ -29,8 +29,7 @@ var models = [
         url: './assets/articuno/Domy.gltf',
         scale: '0.9 0.9 0.9',
         rotation: '0 180 0',
-        info: 'Již neexistující domy v okolí',
-    },
+        info: 'Jiz neexistujici domy v okoli',
     },
     {
         url: './assets/dragonite/church.gltf',
