@@ -26,13 +26,13 @@ var models = [
         rotation: '0 180 0',
     },
     {
-        url: './assets/articuno/Domy.gltf',
+        url: './assets/articuno/scene.gltf',
         scale: '0.9 0.9 0.9',
         rotation: '0 180 0',
         info: 'Jiz neexistujici domy v okoli',
     },
     {
-        url: './assets/dragonite/church.gltf',
+        url: './assets/dragonite/scene.gltf',
         scale: '0.9 0.9 0.9',
         rotation: '0 180 0',
         info: 'Kostel Sv. Mourenec interier',
