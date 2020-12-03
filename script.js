@@ -11,8 +11,8 @@ function staticLoadPlaces() {
         {
             name: 'Pokèmon',
             location: {
-                lat: 50.0930903,
-                lng: 14.3818875,
+                lat: 49.9744261,
+                lng: 14.3944697,
             },
         },
     ];
@@ -21,19 +21,19 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/magnemite/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '1 1 1',
         info: 'Kostel Sv. Mourenec exterier',
         rotation: '0 180 0',
     },
     {
         url: './assets/articuno/scene.gltf',
-        scale: '0.9 0.9 0.9',
+        scale: '1 1 1',
         rotation: '0 180 0',
         info: 'Kostel Sv. Mourenec interier',
     },
     {
         url: './assets/dragonite/scene.gltf',
-        scale: '0.9 0.9 0.9',
+        scale: '1 1 1',
         rotation: '0 180 0',
         info: 'Jiz neexistujici domy v okoli',
     },
